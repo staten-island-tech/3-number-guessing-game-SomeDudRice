@@ -3,9 +3,14 @@
 #  print (x)
 #  x = x - 1
 
-color = ""
+# color = ""
 
-while color != "stop":
-    color = input("What is your favorite color? (type 'stop' to finish): ")
+# while color != "stop":
+#     color = input("What is your favorite color? (type 'stop' to finish): ")
+# print("glad to know your favorite color !")
 
-print("glad to know your favorite color is (color)!")
+
+# input = input("number")
+import random
+answer = random.randint(1,10)
+print (answer)
