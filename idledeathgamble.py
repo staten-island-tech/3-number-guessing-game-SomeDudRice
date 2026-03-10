@@ -10,7 +10,14 @@
 # print("glad to know your favorite color !")
 
 
-# input = input("number")
+isput = int(input("number"))
 import random
+my_list = []
 answer = random.randint(1,10)
-print (answer)
+while not int(answer) == int(isput):
+ print ('wrong')
+ my_list.append(isput)
+ isput = input("number")
+print (answer,"is right")
+print (my_list)
+
