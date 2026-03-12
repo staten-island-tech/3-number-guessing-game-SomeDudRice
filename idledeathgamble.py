@@ -10,14 +10,24 @@
 # print("glad to know your favorite color !")
 
 
-isput = int(input("number"))
-import random
-my_list = []
-answer = random.randint(1,10)
-while not int(answer) == int(isput):
- print ('wrong')
- my_list.append(isput)
- isput = input("number")
-print (answer,"is right")
-print (my_list)
+# righty_thighty = 0
+# import random
+# my_list = []
+# answer = random.randint(1,10)
+# while righty_thighty == 0:
+#  isput = int(input("number"))
+#  if isput == answer:
+#   righty_thighty ==  righty_thighty + 1
+#  elif isput > righty_thighty:
+#   print ("too high")
+#  elif isput < righty_thighty:
+#   print ('too low')
+
+print (10)
+print(9)
+# print ('wrong')
+# my_list.insert(isput)
+# isput = input("number")
+# print (answer,"is right")
+# print (my_list)
 
